@@ -48,6 +48,10 @@ body {
     margin-bottom: 50px;
 }
 
+.container:hover {
+    background: brown;
+}
+
 .sugar {
     border-radius: 50%;
     height: 200px;
@@ -56,7 +60,6 @@ body {
 
 .im-g {
     border-bottom: 6px solid rgba(87, 0, 128, 0.808);
-    background: skyblue;
     padding: 20px;
     margin: 0px auto;
     display: flex;
@@ -71,4 +74,8 @@ body {
 .avatar {
     width: 140px;
     margin: 10px 20px;
+}
+
+.im-g:hover {
+    background: pink;
 }
